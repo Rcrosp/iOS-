@@ -1,5 +1,6 @@
 # iOS-
 此贴是给自己用来记录知识回顾的blog。
+
 基础篇
 1.kvo的具体实现流程？访问成员变量（类似self->age）会触发KVO吗？kvc会触发kvo吗？kvo的两个核心调用方式是？
 kvo 是oc一种观察者模式的又一实现，使用isa混写（isa-swizzling）来实现kvo。
